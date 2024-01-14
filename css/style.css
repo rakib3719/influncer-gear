@@ -1,0 +1,204 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+  /* font fmly
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+  
+  */
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    max-width: 1220px;
+    margin:0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    color: #3A3A3A;
+    align-items: center;
+  
+}
+nav > ul{
+
+    display: flex;
+    align-items: center;
+
+  
+}
+nav > ul li{
+    list-style: none;
+    margin-left: 30px;
+
+}
+nav > ul li a{
+
+    text-decoration: none;
+    font-weight: 600;
+    color: #3A3A3A;
+ 
+   
+    
+
+}
+
+.banner{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 50px; 
+
+}
+.banner-left-text {}
+.banner-right {
+
+background-image: url("../images/circle.svg");
+background-size: cover;
+padding: 30px;
+
+
+}
+
+.section-heading{
+
+
+    color: #3A3A3A;
+font-size: 44px;
+font-weight: 700;
+line-height: 70px; 
+}
+.section-description{
+
+    color: #3A3A3A;
+
+font-size: 16px;
+font-weight: 600;
+
+}
+
+.banner-btn {
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    padding: 11px 41px;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+/* header responsive */
+
+/* nav */
+
+@media screen and (max-width:590px) {
+
+
+    nav{
+
+        flex-direction: column;
+        width: 94%;
+ 
+    }
+    nav >ul{
+
+        margin-top: 20px;
+    }
+
+    nav >ul li a{
+        margin: 0;
+    }
+
+    .banner{
+
+        flex-direction: column-reverse;
+    }
+    .banner-right {
+
+        width: 86%;
+    }
+
+    .banner-left-text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .section-heading{
+
+        font-size: 28px;
+        line-height: 1.8em;
+    }
+    .section-description{
+
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:590px) {
+
+    nav{
+
+        flex-direction: column;
+        width: 94%;
+ 
+    }
+    nav >ul{
+
+        margin-top: 20px;
+    }
+
+    nav >ul li a{
+    
+    }
+
+    .banner{
+
+        flex-direction: column-reverse;
+    }
+    .banner-left-text {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .section-heading{
+
+        font-size: 28px;
+        line-height: 1.8em;
+    }
+    .section-description{
+
+        font-size: 14px;
+    }
+}
+
